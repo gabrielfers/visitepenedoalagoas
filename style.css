@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Fonte";
+    src: url("font/Spring in May.ttf");
+ }
+
+@font-face {
+    font-family: "Riwaya1";
+    src: url("font/Riwaya1.otf");
+}
+
+@font-face {
+    font-family: "Riwaya2";
+    src: url("font/Riwaya2.ttf");
+}
+
+@font-face {
+    font-family: "Fonte-bonita";
+    src: url("font/amatic-sc-bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("font/OpenSans-Light.ttf");
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.logo a:hover {
+    border: none;
+}
+
+.menu {
+    margin-right: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(61, 60, 60, 0.699);
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+a:hover {
+    transition: all 0.5s;
+    color: #00A99E;
+    border-bottom: 2px solid #00A99E;
+}
+
+/* Estilização Main */
+main {
+    background-image: url("https://i.postimg.cc/wxk3f0Qf/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#titulo-site {
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #00A99E;
+    margin-bottom: 20px;
+    font-family: 'Fonte-bonita';
+}
+
+#paragrafo {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'OpenSans-Light';
+    margin-bottom: 20px;
+}
+
+#campo-email {
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #00A99E;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#campo-email:hover {
+    border: 1px solid #028f85c2;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+#botao {
+    margin-left: 10px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00A99E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#botao:hover {
+    background-color: #028f85c2;
+    transition: all 0.5s;
+}
